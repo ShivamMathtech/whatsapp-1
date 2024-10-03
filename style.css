@@ -1,3 +1,72 @@
 body {
-  background-color: antiquewhite;
+}
+.main-page-bg {
+  height: 100vh;
+  background-color: #e1e0dd;
+  position: relative;
+}
+header {
+  height: 150px;
+  background-color: #00a783;
+}
+.content {
+  height: calc(100vh - 150px);
+  width: 100%;
+}
+.application-container {
+  height: 95vh;
+  background-color: #f0f2f5;
+  position: absolute;
+  width: 97vw;
+  top: 30px;
+  left: 30px;
+
+  right: 30px;
+}
+.chat-bar {
+  background-color: #ffffff;
+}
+.cl-1 {
+  width: 80px;
+}
+.nav-link {
+  color: black;
+  font-size: 1.4em;
+}
+.user-logo-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: #00a783;
+  background-image: url("user.png");
+  background-size: cover;
+}
+i {
+  font-size: 1.4em;
+}
+.badge1 {
+  border-radius: 20px;
+  background-color: rgba(152, 255, 129, 0.4);
+}
+
+.user {
+  height: 100px;
+}
+.scrollbar-thin {
+  scrollbar-width: thin;
+  background-color: lightgreen;
+  height: 550px;
+  overflow-y: scroll;
+  scrollbar-width: 3px;
+}
+.user-img-box-1 {
+  height: 80px;
+  width: 80px;
+  background-color: #f0f2f5;
+  background-image: url("user.png");
+  background-size: cover;
+  border-radius: 80px;
+}
+.fa-chevron-down {
+  color: green;
 }
